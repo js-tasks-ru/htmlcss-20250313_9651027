@@ -1,32 +1,24 @@
-:root {
-    --font_inter: 'Inter', sans-serif;
-    --style_normal: normal;
-    
-  }
- .footer {
+.footer__about {
     box-sizing: border-box;
-    
- 
+    padding: 71px 0 264px 0;  
  }
- 
- .footer__about {
-    padding: 71px 0 0 682px;
+
+ .footer__title{
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
-    font-family: var(--font_inter);
-    font-style: var(--style_normal);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     color: var(--black);
  }
  
  .footer__text {
-    width: 640px;
-    text-align: center;
-    padding: 32px 0 136px 417px;
+    margin-top: 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    font-family: var(--font_inter);
-    font-style: var(--style_normal);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     color: var(--black);
  }
+ 
